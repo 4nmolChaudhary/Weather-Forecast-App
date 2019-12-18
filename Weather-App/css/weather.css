@@ -1,0 +1,116 @@
+@font-face
+{
+  font-family: "lexend";
+  src:url("../fonts/LexendDeca-Regular.ttf");
+}
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+    font-family: "lexend";
+    font-size: 20px;
+    background: linear-gradient(45deg, #ea205c, #eb215d);
+    height: 100vh;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    width: 920px;
+    height: 600px;
+    background: #f5f6f7;
+    border:none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px #12121250;
+    display: flex;
+}
+.leftDiv{
+    width:400px;
+    height: 100%;
+    background: url('../images/day.png'); 
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rightDiv{
+    padding: 30px 15px;
+    width:520px
+}
+.x{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.infoBar{
+    display: flex;
+}
+h3{
+    font-size: 18px;
+}
+h2{
+    font-size: 26px;
+}
+.box{
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 25px;
+}
+.Bar{
+    display: flex;
+}
+.Bar .box{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 25px;
+}
+.Bar .pngs{
+    width: 40px;
+}
+.Bar h2{
+    padding: 15px;
+}
+.pngs{
+    width: 60px;
+}
+.Sun{
+    display: flex;
+    padding: 30px;
+}
+.Sun .pngs{
+    width: 80px;
+}
+.Sun div{
+    padding: 10px 30px;
+}
+.leftDiv{
+    color:#fff;
+    padding: 30px;
+}
+.date,.time{
+    align-self: flex-start;
+    margin: 5px;
+    color:#260450;
+    font-weight: 900;
+}
+.cont{
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+.temp{
+    font-size: 5rem;
+}
+.icon img{
+    width:200px;
+}
