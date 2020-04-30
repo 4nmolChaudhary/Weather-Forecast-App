@@ -4,4 +4,4 @@
 
 ### Weather forecast app using JavaScript
 
-using OpenWeatherMap 'https://openweathermap.org/api'
+Using OpenWeatherMap 'https://openweathermap.org/api'
